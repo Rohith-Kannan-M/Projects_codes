@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueback"
+    tools:context=".dateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_input_date"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="YYYY-MM-DD"
+            android:layout_marginTop="300dp"
+            android:background="#FFFF"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/button_idate"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="searchdate"
+            android:layout_marginTop="20dp"
+            android:text="Search" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
